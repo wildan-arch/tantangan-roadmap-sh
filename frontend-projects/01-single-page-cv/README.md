@@ -21,3 +21,6 @@ URL : https://github.com/wildan-arch/latihan-html-cv
 ├── index.html          # File HTML utama berisi struktur CV
 
 ```
+
+- challanges \*
+  https://roadmap.sh/projects/single-page-cv

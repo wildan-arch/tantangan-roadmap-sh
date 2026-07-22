@@ -61,7 +61,8 @@ git clone [https://github.com/wildan-arch/tantangan-roadmap-sh.git](https://gith
 
 Website: _(segera hadir)_
 
-https://roadmap.sh/projects/pricing-comparison-table
+- challanges \*
+  https://roadmap.sh/projects/pricing-comparison-table
 
 ```
 
