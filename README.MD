@@ -11,7 +11,8 @@ Repositori ini berisi kumpulan dokumentasi dan penyelesaian tantangan proyek **F
 | **01** | `01-single-page-cv`     |   HTML5   | [Single-Page CV Project](https://roadmap.sh/projects/single-page-cv)                  | Completed |
 | **02** | `02-basic-html-website` |   HTML5   | [Basic HTML Website Project](https://roadmap.sh/projects/basic-html-website)          | Completed |
 | **03** | `03-comparison-table`   |   HTML5   | [HTML Comparison Table Project](https://roadmap.sh/projects/pricing-comparison-table) | Completed |
-| **03** | `04-blog-post-page`     |   HTML5   | [HTML Blog Post Page](https://roadmap.sh/projects/blog-post-page)                     | Completed |
+| **04** | `04-blog-post-page`     |   HTML5   | [HTML Blog Post Page](https://roadmap.sh/projects/blog-post-page)                     | Completed |
+| **05** | `05-contact-form`       |   HTML5   | [HTML Contact Form](https://roadmap.sh/projects/contact-form)                         | Completed |
 
 ---
 
@@ -23,6 +24,7 @@ Repositori ini berisi kumpulan dokumentasi dan penyelesaian tantangan proyek **F
 > - **Basic HTML Website Project URL:** `https://roadmap.sh/projects/basic-html-website`
 > - **Single-Page CV Project URL:** `https://roadmap.sh/projects/single-page-cv`
 > - **Blog-post-page Project URL:** `https://roadmap.sh/projects/blog-post-page`
+> - **Contact-Form Project URL:** `https://roadmap.sh/projects/contact-form`
 
 ---
 

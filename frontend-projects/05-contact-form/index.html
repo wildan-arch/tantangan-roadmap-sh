@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form - Shabah Cloud Hosting</title>
+  </head>
+  <body>
+    <header>
+      <h1>Shabah Cloud Hosting</h1>
+      <p>Pilih paket langganan yang paling sesuai dengan kebutuhan anda.</p>
+      <p>Isi form dibawah ini untuk mendapatkan informasi lebih lanjut.</p>
+    </header>
+
+    <main>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Nama : </label>
+          <input type="text" id="name" name="name" placeholder="Contoh : Wildan Fajar" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="email">Email : </label>
+          <input type="email" id="email" name="email" placeholder="example@gmail.com" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="subjek">Subjek Pesan : </label>
+          <select name="subjek" id="subjek" required>
+            <option value="" disabled selected>-</option>
+            <option value="Paket Hosting">Paket Hosting</option>
+            <option value="Bantuan Teknis / Support">Bantuan Teknis / Support</option>
+            <option value="Pertanyaan Umum">Pertanyaan Umum</option>
+          </select>
+        </div>
+        <br />
+
+        <fieldset>
+          <legend>Dari mana anda mengetahui layanan kami?</legend>
+          <!-- Perbaikan: Tambahkan required pada radio pertama -->
+          <input type="radio" name="layanan" id="google" value="Google" required />
+          <label for="google">Google</label>
+
+          <input type="radio" name="layanan" id="youtube" value="Youtube" />
+          <label for="youtube">Youtube</label>
+
+          <input type="radio" name="layanan" id="facebook" value="Facebook" />
+          <label for="facebook">Facebook</label>
+
+          <input type="radio" name="layanan" id="instagram" value="Instagram" />
+          <label for="instagram">Instagram</label>
+        </fieldset>
+        <br />
+
+        <div>
+          <label for="pesan">Pesan : </label><br />
+          <textarea name="pesan" id="pesan" cols="50" rows="5" minlength="10" placeholder="Tuliskan pesan anda kepada tim kami (min 10 karakter)" required></textarea>
+        </div>
+        <br />
+
+        <div>
+          <!-- Perbaikan: Teks dimasukkan langsung ke dalam tag <label> -->
+          <input type="checkbox" id="syaratKetentuan" name="syaratKetentuan" value="syaratKetentuan" />
+          <label for="syaratKetentuan">Saya menyetujui syarat dan ketentuan</label>
+        </div>
+        <br />
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </main>
+
+    <footer>
+      <hr />
+      <p>&copy; 2026 Shabah Cloud Hosting. Hak Cipta Dilindungi.</p>
+    </footer>
+  </body>
+</html>
