@@ -1,14 +1,3 @@
-Karena repositori **`tantangan-roadmap-sh`** kamu sekarang berfungsi sebagai **Monorepo** (satu repo besar yang menampung banyak sub-folder proyek), isi file `README.md` utama di luar (root) harus menjadi **daftar isi utama / portal rangkuman** untuk semua tantangan yang kamu kerjakan.
-
-Di dalamnya, kamu **wajib menempelkan link _Project URL_** dari tiap tugas Roadmap.sh agar bot verifikasinya selalu lolos 3 centang hijau!
-
----
-
-### Isi File `README.md` Utama (Root)
-
-Kamu bisa menyalin (_copy-paste_) template lengkap di bawah ini untuk ditaruh di file `README.md` yang berada **di folder utama `tantangan-roadmap-sh**`:
-
-````markdown
 # Roadmap.sh Frontend Challenges 🚀
 
 Repositori ini berisi kumpulan dokumentasi dan penyelesaian tantangan proyek **Frontend Development** dari platform [roadmap.sh](https://roadmap.sh/). Semua proyek dibuat fokus pada struktur **Semantic HTML**, aksesibilitas, serta _clean code_.
@@ -29,7 +18,7 @@ Repositori ini berisi kumpulan dokumentasi dan penyelesaian tantangan proyek **F
 
 > _Tautan di bawah ini digunakan oleh bot verifikasi otomatis Roadmap.sh untuk memvalidasi submission:_
 >
-> - **Comparison Table Project URL:** `https://roadmap.sh/projects/html-comparison-table`
+> - **Comparison Table Project URL:** `https://roadmap.sh/projects/pricing-comparison-table`
 > - **Basic HTML Website Project URL:** `https://roadmap.sh/projects/basic-html-website`
 > - **Single-Page CV Project URL:** `https://roadmap.sh/projects/single-page-cv`
 
@@ -41,6 +30,7 @@ Repositori ini berisi kumpulan dokumentasi dan penyelesaian tantangan proyek **F
    ```bash
    git clone [https://github.com/wildan-arch/tantangan-roadmap-sh.git](https://github.com/wildan-arch/tantangan-roadmap-sh.git)
    ```
+
 ````
 
 2. **Masuk ke folder repositori:**
@@ -60,13 +50,4 @@ _Dikembangkan oleh [Wildan Fajar Pamungkas](https://www.google.com/search?q=http
 ```
 
 ---
-
-### 💡 Keunggulan Format Ini:
-
-1. **Mencakup Syarat Bot:** Bagian *Catatan Verifikasi* secara eksplisit memuat tautan `project URL` yang dicari oleh bot Roadmap.sh.
-2. **Sangat Rapi di Profil GitHub:** Tabel di atas akan membuat repositori utamamu terlihat sangat profesional bagi siapa pun atau HRD yang melihat akun GitHub-mu.
-3. **Mudah Ditambah:** Nanti kalau kamu mengerjakan tugas ke-4 (misal: `04-changelog-component`), kamu tinggal menambah baris baru di tabel tersebut!
-
-Setelah menyalin teks ini ke file `README.md` utama, jalankan `git add README.md`, `git commit -m "Update root README"`, dan `git push origin main`. Setelah itu, coba klik **Verify and Submit** lagi di Roadmap.sh!
-
-```
+````
